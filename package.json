@@ -1,0 +1,26 @@
+{
+  "name": "sketch-sort-layers",
+  "version": "1.0.0",
+  "description": "Sort layers and artboards by name, position, or type in Sketch",
+  "main": "sort-layers.sketchplugin",
+  "author": "Your Name",
+  "license": "MIT",
+  "skpm": {
+    "name": "Sort Layers",
+    "manifest": "src/manifest.json",
+    "main": "sort-layers.sketchplugin",
+    "icon": "sort-layers.png",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "publish": "skpm publish"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.9.5",
+    "skpm": "1.3.3"
+  }
+}
