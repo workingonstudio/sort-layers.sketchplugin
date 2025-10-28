@@ -1,5 +1,5 @@
 {
-  "name": "sketch-sort-layers",
+  "name": "sort-layers",
   "version": "1.0.0",
   "description": "Sort layers and artboards by name, position, or type in Sketch",
   "main": "sort-layers.sketchplugin",

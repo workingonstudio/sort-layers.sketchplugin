@@ -1,24 +1,42 @@
-# Sketch Plugin Build Output
-*.sketchplugin
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Node modules
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Sketch
+*.sketch
+
+# Node (if using npm for build tools)
 node_modules/
-
-# npm
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
 yarn.lock
 
-# OS Files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Build artifacts
+dist/
+build/
+*.zip
 
 # IDE
 .vscode/
@@ -30,18 +48,3 @@ Thumbs.db
 # Logs
 logs/
 *.log
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# Build artifacts
-dist/
-build/
-.cache/

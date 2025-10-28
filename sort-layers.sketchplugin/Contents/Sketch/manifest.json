@@ -1,0 +1,62 @@
+{
+  "name": "Sort Layers",
+  "description": "Sort layers and artboards by name, position, or type",
+  "author": "workingon.studio",
+  "version": "1.0.0",
+  "identifier": "studio.workingon.sketch.sort-layers",
+  "icon": "sort-layers.png",
+  "commands": [
+    {
+      "name": "Sort by Name (A→Z)",
+      "identifier": "sortByNameAsc",
+      "script": "__sort-commands.js",
+      "handler": "sortByNameAsc"
+    },
+    {
+      "name": "Sort by Name (Z→A)",
+      "identifier": "sortByNameDesc",
+      "script": "__sort-commands.js",
+      "handler": "sortByNameDesc"
+    },
+    {
+      "name": "Sort by Position (Top to Bottom)",
+      "identifier": "sortByPositionY",
+      "script": "__sort-commands.js",
+      "handler": "sortByPositionY"
+    },
+    {
+      "name": "Sort by Position (Left to Right)",
+      "identifier": "sortByPositionX",
+      "script": "__sort-commands.js",
+      "handler": "sortByPositionX"
+    },
+    {
+      "name": "Sort by Type",
+      "identifier": "sortByType",
+      "script": "__sort-commands.js",
+      "handler": "sortByType"
+    },
+    {
+      "name": "Reverse Layer Order",
+      "identifier": "reverseOrder",
+      "script": "__sort-commands.js",
+      "handler": "reverseOrder"
+    }
+  ],
+  "menu": {
+    "title": "Sort Layers",
+    "items": [
+      "sortByNameAsc",
+      "sortByNameDesc",
+      "-",
+      "sortByPositionY",
+      "sortByPositionX",
+      "-",
+      "sortByType",
+      "-",
+      "reverseOrder"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
