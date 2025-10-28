@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sort Layers</title>
+    <link>https://github.com/workingonstudio/sort-layers.sketchplugin</link>
+    <description>Sort layers in Sketch</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.0</title>
+      <description>Initial release of Sort Layers plugin</description>
+      <enclosure url="https://github.com/workingonstudio/sort-layers.sketchplugin/releases/download/v1.0.0/sort-layers.sketchplugin.zip" sparkle:version="1.0.0"/>
+    </item>
+  </channel>
+</rss>

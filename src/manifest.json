@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "identifier": "studio.workingon.sketch.sort-layers",
   "icon": "sort-layers.png",
+  "appcast": "https://raw.githubusercontent.com/workingonstudio/sort-layers.sketchplugin/main/.appcast.xml",
   "commands": [
     {
       "name": "Sort by Name (A→Z)",
