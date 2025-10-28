@@ -66,7 +66,7 @@ MIT License - Feel free to use and modify as needed!
 ## Installation
 
 ### Manual Installation
-1. Download the [latest release](https://github.com/[your-org]/sort-layers.sketchplugin/releases/latest)
+1. Download the [latest release](https://github.com/workingonstudio/sort-layers.sketchplugin/releases/latest)
 2. Double-click the `.sketchplugin` file to install
 
 ## Usage
@@ -91,7 +91,7 @@ The selected layers will be reordered in the layer list according to your chosen
 
 ```bash
 # Clone the repository
-git clone https://github.com/[your-org]/sort-layers.sketchplugin.git
+git clone https://github.com/workingonstudio/sort-layers.sketchplugin.git
 
 # Install dependencies (if any)
 npm install
@@ -113,5 +113,5 @@ Created by [Your Name]
 
 If you find this plugin helpful, please consider:
 - ⭐ Starring the repository
-- 🐛 [Reporting bugs](https://github.com/[your-org]/sort-layers.sketchplugin/issues)
-- 💡 [Suggesting features](https://github.com/[your-org]/sort-layers.sketchplugin/issues)
+- 🐛 [Reporting bugs](https://github.com/workingonstudio/sort-layers.sketchplugin/issues)
+- 💡 [Suggesting features](https://github.com/workingonstudio/sort-layers.sketchplugin/issues)
