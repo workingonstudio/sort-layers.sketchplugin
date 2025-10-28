@@ -46,7 +46,7 @@ MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Credits
 
-Created by [Your Name]
+Created by [workingon.studio](https://workingon.studio)
 
 ## Support
 
