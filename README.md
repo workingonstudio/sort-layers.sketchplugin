@@ -1,6 +1,6 @@
 # Sort Layers
 
-[A powerful Sketch plugin to sort layers and artboards by name, position, or type.]
+A powerful Sketch plugin to sort layers and artboards by name, position, or type.
 
 ## Installation
 
@@ -24,7 +24,7 @@ The selected layers will be reordered in the layer list according to your chosen
 
 ## Requirements
 
-- Sketch [version]+
+- Sketch 2025.2.3+ [Get Latest Version](https://www.sketch.com/)
 
 ## Development
 
